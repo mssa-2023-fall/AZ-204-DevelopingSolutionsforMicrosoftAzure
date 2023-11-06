@@ -4,11 +4,6 @@
 name: Build and deploy ASP.Net Core app to Azure Web App - imgwebvc
 
 on:
-  push:
-    branches:
-      - victor
-    paths:
-      - Allfiles/Labs/01/Starter/**
   workflow_dispatch:
 
 jobs:
