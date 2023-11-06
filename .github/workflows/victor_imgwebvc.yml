@@ -8,7 +8,7 @@ on:
     branches:
       - victor
     paths:
-      - Allfiles/Labs/01/Starter/Web/**
+      - Allfiles/Labs/01/Starter/**
   workflow_dispatch:
 
 jobs:
