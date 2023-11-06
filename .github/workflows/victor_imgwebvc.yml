@@ -56,6 +56,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'imgwebvc'
-          slot-name: 'Production'
+          slot-name: 'dev'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A31DD76191714D1EA797249C4C5E7F68 }}
           package: .
