@@ -40,7 +40,7 @@ namespace Web
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseDeveloperExceptionPage();
+            //app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
             app.UseRouting();
             app.UseEndpoints(endpoints =>
