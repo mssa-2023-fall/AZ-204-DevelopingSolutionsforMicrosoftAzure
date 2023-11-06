@@ -32,7 +32,7 @@ namespace Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<Options>(_configuration.Get<Options>());
-            services.AddSingleton<HttpClient>(new HttpClient());
+            
             services.AddControllers();
         }
 
